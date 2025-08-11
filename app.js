@@ -103,3 +103,17 @@ function tabuada (numero) {
     }
 }
 
+let listaGenerica = [];
+
+let linguagemDeProgramação = ["JavaScript", "C", "C++", "Kotlin", "Python"];
+linguagemDeProgramação.push("Java", "Ruby", "GoLang");
+
+let nomes = ["Laura", "Kaique", "Maria"];
+console.log(nomes[0]);
+
+let nomes2 = ["Simone", "Melina", "Lili"];
+console.log(nomes2[1]);
+
+let nomes3 = ["Fabio", "Arnaldo", "Luis"];
+console.log(nomes3[2]);
+
