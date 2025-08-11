@@ -21,3 +21,42 @@ function somandoDoisNumeros () {
     alert(`O resultado de ${primeiroNumero} + ${segundoNumero} é ${resultado}`);
 }
 
+
+function mensagemBoasVindas () {
+    console.log("Olá, mundo");
+}
+mensagemBoasVindas();
+
+function olaNome (nomeUsuario) {
+    console.log(`Olá, ${nomeUsuario}`);
+}
+olaNome();
+
+function calcularDobro (numero) {
+    return (numero * 2);
+}
+
+let resultadoDobro = calcularDobro(5);
+console.log(resultadoDobro);
+
+function calcularMedia (a, b, c) {
+    return (a + b + c) / 3;
+}
+
+let media = calcularMedia(5, 6, 7);
+console.log(media);
+
+
+function comparacao (a, b){
+    return a > b ? a : b;
+}
+
+let maiorNumero = comparacao(15, 9);
+console.log(maiorNumero);
+
+function multiplicacao (numero) {
+    return numero * numero;
+}
+
+let resultado = multiplicacao(7);
+console.log(resultado);
