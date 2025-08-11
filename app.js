@@ -60,3 +60,46 @@ function multiplicacao (numero) {
 
 let resultado = multiplicacao(7);
 console.log(resultado);
+
+
+function calcularIMC (altura, peso){
+    let imc = peso / (alturaMetros * alturaMetros);
+}
+
+function calcularFatorial (numero) {
+    if (numero === 0 || numero === 1) {
+        return 1;
+    }
+
+    let fatorial = 1;
+    for (let i = 2; i <= numero; i++);
+    fatorial*= i;
+}
+
+
+function converterDolarParaReal (valorDolar) {
+   let cotacaoDolar = 4.80;
+   let valorEmReais = valorDolar * cotacaoDolar;
+   return valorEmReais.toFixed(2);
+}
+
+
+function areaEPerimetroRetangulo ( alturaLocal, larguraLocal) {
+    let area = alturaLocal * larguraLocal;
+    let perimetro = 2 * (alturaLocal + larguraLocal);
+}
+
+
+function calcularAreaEPerimetroCirculo (raio) {
+    let areaCirculo = (raio * raio) * Math.PI;
+    let perimetroCirculo = (2 * Math.PI * raio);
+}
+
+
+function tabuada (numero) {
+    for (let i = 1; i <= 10; i++) {
+        let resultado = numero * i;
+        console.log (`${numero} X ${i} = ${resultado}`);
+    }
+}
+
